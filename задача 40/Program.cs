@@ -11,7 +11,7 @@ int number3 = Convert.ToInt32(Console.ReadLine());
 
 if (number1 < number2 + number3 && number2 < number1 + number3 && number3 < number1 + number2)
 {
-Console.WriteLine("Треугольник существует!");
+    Console.WriteLine("Треугольник существует!");
 }
 else
-Console.WriteLine("Треугольник не может существовать!");
+    Console.WriteLine("Треугольник не может существовать!");

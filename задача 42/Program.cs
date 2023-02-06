@@ -10,8 +10,8 @@ int number = Convert.ToInt32(Console.ReadLine());
 string number_str = "";
 while (number > 0)
 {
-number_str = number_str + number % 2;
-number = number / 2;
+    number_str = number_str + number % 2;
+    number = number / 2;
 
 }
 

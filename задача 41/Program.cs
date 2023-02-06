@@ -8,7 +8,7 @@
 
 
 
-int [] GetArray(string message)
+int[] GetArray(string message)
 {
     Console.WriteLine(message);
     string text = Console.ReadLine();
@@ -16,7 +16,7 @@ int [] GetArray(string message)
     int[] arr = text.Split(separators).Select(n => Convert.ToInt32(n)).ToArray();
 
     return arr;
-   
+
 }
 
 void PrintArray(int[] arr)
@@ -39,6 +39,6 @@ void GetSum(int[] arr)
     Console.Write($" -> Введено {sum} числа(ел) больше 0");
 }
 
-int [] array = GetArray("введите числа в массив  и нажмите Enter");
+int[] array = GetArray("введите числа в массив  и нажмите Enter");
 PrintArray(array);
 GetSum(array);
